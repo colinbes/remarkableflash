@@ -5,6 +5,12 @@ This repro includes tools and docs to flash a new image to a remarkable tablet.
 WIP and be aware... Here be dragons
 ## Install the build chain
 ### 1. Preparation
+If not already on your system install compression tool **lzop** which is used creating image
+```bash
+sudo apt-get update -y
+sudo apt-get install -y lzop
+```
+
 Create a development folder for remarkable development
 ```bash
 mkdir ~/remarkable_dev
